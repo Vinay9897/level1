@@ -34,8 +34,8 @@ public class HistogramPlot {
 
         int[] lb = new int[arr.length]; // next smaller element index on the right
         Stack<Integer> st2 = new Stack<>();
-        st2.push(arr.length - 1);
-        lb[arr.length - 1] = arr.length;
+        st2.push(0);
+        lb[0] = -1;
         for (int i = 1; i < lb.length; i++) {
             while (st2.size() > 0 && arr[i] <= arr[st2.peek()]) {
                 st2.pop();
@@ -57,6 +57,13 @@ public class HistogramPlot {
             if (area > maxArea) {
                 maxArea = area;
             }
+        }
+        for (int val : lb) {
+            System.out.print(val + " ");
+        }
+        System.out.println();
+        for (int val : rb) {
+            System.out.print(val + " ");
         }
         System.out.println("Max Area : " + maxArea);
     }

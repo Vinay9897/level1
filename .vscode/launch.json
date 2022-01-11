@@ -1,0 +1,147 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch ArrraySum",
+            "request": "launch",
+            "mainClass": "pattern.ArrraySum",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pattern10",
+            "request": "launch",
+            "mainClass": "pattern.Pattern10",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pattern2",
+            "request": "launch",
+            "mainClass": "pattern.Pattern2",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pattern7",
+            "request": "launch",
+            "mainClass": "pattern.Pattern7",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pattern8",
+            "request": "launch",
+            "mainClass": "pattern.Pattern8",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pattern9",
+            "request": "launch",
+            "mainClass": "pattern.Pattern9",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern1",
+            "request": "launch",
+            "mainClass": "pattern.pattern1",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern3",
+            "request": "launch",
+            "mainClass": "pattern.pattern3",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern4",
+            "request": "launch",
+            "mainClass": "pattern.pattern4",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern5",
+            "request": "launch",
+            "mainClass": "pattern.pattern5",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern6",
+            "request": "launch",
+            "mainClass": "pattern.pattern6",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch BalanceBrakets",
+            "request": "launch",
+            "mainClass": "stack.BalanceBrakets",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch DuplicateBrackets",
+            "request": "launch",
+            "mainClass": "stack.DuplicateBrackets",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch HistogramPlot",
+            "request": "launch",
+            "mainClass": "stack.HistogramPlot",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch NextGreaterElement",
+            "request": "launch",
+            "mainClass": "stack.NextGreaterElement",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch NextGreaterElement2",
+            "request": "launch",
+            "mainClass": "stack.NextGreaterElement2",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch SlidingWindowMaximam",
+            "request": "launch",
+            "mainClass": "stack.SlidingWindowMaximam",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch SlidingWindowMaximun2",
+            "request": "launch",
+            "mainClass": "stack.SlidingWindowMaximun2",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch StockSpan",
+            "request": "launch",
+            "mainClass": "stack.StockSpan",
+            "projectName": "level1_76bad1b"
+        }
+    ]
+}

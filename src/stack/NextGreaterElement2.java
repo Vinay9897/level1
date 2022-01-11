@@ -49,7 +49,7 @@ public class NextGreaterElement2 {
         }
         while (st.size() > 0) {
             int pos = st.peek();
-            arr[pos] = -1;
+            nge[pos] = -1;
             st.pop();
         }
         return nge;
