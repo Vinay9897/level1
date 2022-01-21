@@ -37,8 +37,32 @@ public class SLinkedList {
         addAtIndex(4, 8);
         // reverseLinkedList();
         traverse();
+        getMidNode();
         System.out.println("Size : " + size());
 
+    }
+
+    private static void getMidNode() {
+        if (size == 0) {
+            System.out.println("List is empty");
+        } else if (size == 1) {
+            System.out.println("Size is only 1");
+        } else {
+            int mid = size / 2;
+            Node temp = head;
+            for (int i = 0; i < mid; i++) {
+                temp = temp.next;
+            }
+            System.out.println("Middle data : " + temp.data);
+        }
+    }
+
+    public static void removeDuplicate() {
+        if (isEmpty()) {
+            System.out.println("List is empty");
+        } else {
+
+        }
     }
 
     private static Node getNodeAt(int index) {
