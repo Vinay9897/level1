@@ -22,7 +22,7 @@ public class StockSpan2 {
         for (int val : nge) {
             System.out.print(val + " ");
         }
-
+        sc.close();
     }
 
     private static int[] solve(int[] arr) {

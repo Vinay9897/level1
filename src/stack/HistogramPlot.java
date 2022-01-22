@@ -12,6 +12,7 @@ public class HistogramPlot {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
         }
+        sc.close();
 
         // Code
         int[] rb = new int[arr.length]; // next smaller element index on the right

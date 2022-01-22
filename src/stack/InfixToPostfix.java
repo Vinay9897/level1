@@ -11,7 +11,7 @@ public class InfixToPostfix {
         Stack<String> postfix = new Stack<>();
         Stack<String> prefix = new Stack<>();
         Stack<Character> operator = new Stack<>();
-
+        sc.close();
         for (int i = 0; i < infixString.length(); i++) {
             char ch = infixString.charAt(i);
             if (ch == '(') {

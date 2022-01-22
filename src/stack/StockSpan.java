@@ -14,7 +14,7 @@ public class StockSpan {
         }
         int[] span = solveSpan(arr);
         display(span);
-
+        sc.close();
     }
 
     private static void display(int[] span) {

@@ -3,7 +3,7 @@ package stack;
 // import java.io.BufferedInputStream;
 
 import java.util.*;
-import java.io.*;
+// import java.io.*;
 
 public class NextGreaterElement2 {
 
@@ -23,6 +23,7 @@ public class NextGreaterElement2 {
         }
         int[] nge = solve(a);
         display(nge);
+        sc.close();
     }
 
     private static void display(int[] nge) {

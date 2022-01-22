@@ -24,7 +24,7 @@ public class ArrraySum {
         int i = arr1.length - 1;
         int j = arr2.length - 1;
         int k = sum.length - 1;
-
+        sc.close();
         while (k >= 0) {
             int d = carry;
             if (i >= 0) {
@@ -47,7 +47,7 @@ public class ArrraySum {
         for (int val : sum) {
             System.out.println(val);
         }
-        
+
     }
 
 }

@@ -3,7 +3,7 @@ package pattern;
 public class Pattern2 {
     public static void main(String[] args) {
         int r = 5;
-        int c = 7;
+        // int c = 7;
         int space = 1;
         int star = 3;
         for (int i = 0; i < r; i++) {

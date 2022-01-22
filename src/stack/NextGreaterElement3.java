@@ -23,11 +23,11 @@ public class NextGreaterElement3 {
         Stack<Integer> st = new Stack<>();
         st.push(arr.length - 1);
         nge[arr.length - 1] = -1;
-        int pos = 0;
+        // int pos = 0;
         for (int i = arr.length - 2; i >= 0; i--) {
             while (st.size() > 0 && arr[i] > arr[st.peek()]) {
                 // nge[i] = arr[st.peek()];
-                pos = st.peek();
+                // pos = st.peek();
                 st.pop();
             }
             if (st.size() == 0) {
