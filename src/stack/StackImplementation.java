@@ -1,7 +1,5 @@
 package stack;
 
-import java.util.Stack;
-
 public class StackImplementation {
 
     private static ListNode top;
@@ -13,7 +11,7 @@ public class StackImplementation {
 
         public ListNode(int data) {
             this.data = data;
-            this.next = next;
+
         }
     }
 
@@ -32,11 +30,9 @@ public class StackImplementation {
         traverse();
         stack.pop();
         traverse();
-        stack.size();
         stack.peek();
         stack.top();
         System.out.println(size());
-
     }
 
     private boolean isEmpty() {
@@ -79,7 +75,6 @@ public class StackImplementation {
             temp = temp.next;
         }
         System.out.println(" null");
-
     }
 
     private void push(int data) {
@@ -93,5 +88,4 @@ public class StackImplementation {
             size++;
         }
     }
-
 }
