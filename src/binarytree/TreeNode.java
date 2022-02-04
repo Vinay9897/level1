@@ -1,39 +1,39 @@
-package binarytree;
+// package binarytree;
 
-public class TreeNode extends BinarySearchTree {
+// public class TreeNode extends BinarySearchTree {
 
-    private int data;
-    private TreeNode leftNode;
-    private TreeNode rightNode;
+// private int data;
+// private TreeNode leftNode;
+// private TreeNode rightNode;
 
-    public TreeNode(int data) {
-        this.data = data;
-        leftNode = null;
-        rightNode = null;
-    }
+// public TreeNode(int data) {
+// this.data = data;
+// leftNode = null;
+// rightNode = null;
+// }
 
-    public int getData() {
-        return data;
-    }
+// // public int getData() {
+// // return data;
+// // }
 
-    public void setData(int data) {
-        this.data = data;
-    }
+// // public void setData(int data) {
+// // this.data = data;
+// // }
 
-    public TreeNode getLeftNode() {
-        return leftNode;
-    }
+// // public TreeNode getLeftNode() {
+// // return leftNode;
+// // }
 
-    public TreeNode getRightNode() {
-        return rightNode;
-    }
+// // public TreeNode getRightNode() {
+// // return rightNode;
+// // }
 
-    public void setRightNode(TreeNode rightNode) {
-        this.rightNode = rightNode;
-    }
+// // public void setRightNode(TreeNode rightNode) {
+// // this.rightNode = rightNode;
+// // }
 
-    public void setLefttNode(TreeNode leftNode) {
-        this.leftNode = leftNode;
-    }
+// // public void setLeftNode(TreeNode leftNode) {
+// // this.leftNode = leftNode;
+// // }
 
-}
+// }

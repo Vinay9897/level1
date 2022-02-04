@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch P2",
+            "request": "launch",
+            "mainClass": "inftq.P2",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch pattern11",
+            "request": "launch",
+            "mainClass": "pattern.pattern11",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch P",
+            "request": "launch",
+            "mainClass": "inftq.P",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch N_Queen",
+            "request": "launch",
+            "mainClass": "backtracking.N_Queen",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindAllSubString",
+            "request": "launch",
+            "mainClass": "infitq.FindAllSubString",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
             "name": "Launch CoinChange",
             "request": "launch",
             "mainClass": "dynamicprogramming.CoinChange",
