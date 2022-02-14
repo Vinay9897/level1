@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Max3Number",
+            "request": "launch",
+            "mainClass": "inftq.Max3Number",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxEvenNumber",
+            "request": "launch",
+            "mainClass": "inftq.MaxEvenNumber",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
             "name": "Launch P2",
             "request": "launch",
             "mainClass": "inftq.P2",
