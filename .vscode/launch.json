@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch checkPalindrome",
+            "request": "launch",
+            "mainClass": "inftq.checkPalindrome",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
             "name": "Launch Max3Number",
             "request": "launch",
             "mainClass": "inftq.Max3Number",
