@@ -1,6 +1,7 @@
 package inftq;
 
 public class checkPalindrome {
+
     public static void main(String[] args) {
         String str = "she is madam";
         String[] str1 = str.split(" ");
