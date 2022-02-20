@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch EvenDigitSum",
+            "request": "launch",
+            "mainClass": "leetcode.EvenDigitSum",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveCoveredIntervals",
+            "request": "launch",
+            "mainClass": "leetcode.RemoveCoveredIntervals",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution",
+            "request": "launch",
+            "mainClass": "inftq.Solution",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveKDigit",
+            "request": "launch",
+            "mainClass": "leetcode.RemoveKDigit",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
             "name": "Launch checkPalindrome",
             "request": "launch",
             "mainClass": "inftq.checkPalindrome",
