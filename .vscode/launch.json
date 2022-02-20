@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Fibonacci",
+            "request": "launch",
+            "mainClass": "dynamicprogramming.Fibonacci",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
             "name": "Launch EvenDigitSum",
             "request": "launch",
             "mainClass": "leetcode.EvenDigitSum",
