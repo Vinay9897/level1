@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AdjMatrixGraph",
+            "request": "launch",
+            "mainClass": "graph.AdjMatrixGraph",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch MajorityElements",
+            "request": "launch",
+            "mainClass": "leetcode.MajorityElements",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumStepTo1",
+            "request": "launch",
+            "mainClass": "dynamicprogramming.MinimumStepTo1",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
             "name": "Launch Fibonacci",
             "request": "launch",
             "mainClass": "dynamicprogramming.Fibonacci",

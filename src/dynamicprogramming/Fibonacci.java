@@ -22,7 +22,6 @@ public class Fibonacci {
         }
         if (dp[number] == -1) {
             dp[number] = fibonacci(number - 2, dp) + fibonacci(number - 1, dp);
-            ;
         } else {
             return dp[number];
         }
