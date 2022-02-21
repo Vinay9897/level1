@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch AdjListGraph",
+            "request": "launch",
+            "mainClass": "graph.AdjListGraph",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
             "name": "Launch AdjMatrixGraph",
             "request": "launch",
             "mainClass": "graph.AdjMatrixGraph",
