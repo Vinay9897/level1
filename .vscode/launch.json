@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch BinarySearch",
+            "request": "launch",
+            "mainClass": "leetcode.BinarySearch",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExcelSheetColumnNumber",
+            "request": "launch",
+            "mainClass": "leetcode.ExcelSheetColumnNumber",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
             "name": "Launch AdjListGraph",
             "request": "launch",
             "mainClass": "graph.AdjListGraph",
