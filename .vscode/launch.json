@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch RotateArray",
+            "request": "launch",
+            "mainClass": "leetcode.RotateArray",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
             "name": "Launch BinarySearch",
             "request": "launch",
             "mainClass": "leetcode.BinarySearch",
