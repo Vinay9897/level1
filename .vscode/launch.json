@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TwoSumII",
+            "request": "launch",
+            "mainClass": "leetcode.TwoSumII",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch MoveZerosUsingRecursion",
+            "request": "launch",
+            "mainClass": "leetcode.MoveZerosUsingRecursion",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch MoveZeros",
+            "request": "launch",
+            "mainClass": "leetcode.MoveZeros",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
             "name": "Launch RotateArray",
             "request": "launch",
             "mainClass": "leetcode.RotateArray",
