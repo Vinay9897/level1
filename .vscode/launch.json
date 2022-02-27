@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CountWordsWithAGivenPrefix",
+            "request": "launch",
+            "mainClass": "leetcode.CountWordsWithAGivenPrefix",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseString",
+            "request": "launch",
+            "mainClass": "leetcode.ReverseString",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
             "name": "Launch TwoSumII",
             "request": "launch",
             "mainClass": "leetcode.TwoSumII",
