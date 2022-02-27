@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LongestPalindromeSubString",
+            "request": "launch",
+            "mainClass": "leetcode.LongestPalindromeSubString",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
             "name": "Launch CountWordsWithAGivenPrefix",
             "request": "launch",
             "mainClass": "leetcode.CountWordsWithAGivenPrefix",
