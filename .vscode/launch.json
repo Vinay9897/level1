@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ValidParanthesis",
+            "request": "launch",
+            "mainClass": "leetcode.ValidParanthesis",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch PermutationINString",
+            "request": "launch",
+            "mainClass": "leetcode.PermutationINString",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
             "name": "Launch LongestPalindromeSubString",
             "request": "launch",
             "mainClass": "leetcode.LongestPalindromeSubString",
