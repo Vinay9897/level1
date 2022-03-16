@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Solution946",
+            "request": "launch",
+            "mainClass": "leetcode.Solution946",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
             "name": "Launch ValidParanthesis",
             "request": "launch",
             "mainClass": "leetcode.ValidParanthesis",
