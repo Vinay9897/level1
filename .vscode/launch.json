@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch FindChange",
+            "request": "launch",
+            "mainClass": "bitmasking.FindChange",
+            "projectName": "level1_1c55a9e9"
+        },
+        {
+            "type": "java",
             "name": "Launch RemovePosition",
             "request": "launch",
             "mainClass": "bitmasking.RemovePosition",
