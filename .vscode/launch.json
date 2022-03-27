@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SetPosition",
+            "request": "launch",
+            "mainClass": "bitmasking.SetPosition",
+            "projectName": "level1_1c55a9e9"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindEvenOrOdd",
+            "request": "launch",
+            "mainClass": "bitmasking.FindEvenOrOdd",
+            "projectName": "level1_1c55a9e9"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountWordsWithAGivenPrefix",
+            "request": "launch",
+            "mainClass": "leetcode.CountWordsWithAGivenPrefix",
+            "projectName": "level1_1c55a9e9"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinarySearch",
+            "request": "launch",
+            "mainClass": "leetcode.BinarySearch",
+            "projectName": "level1_1c55a9e9"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution213",
+            "request": "launch",
+            "mainClass": "leetcode.Solution213",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
+            "name": "Launch Solution198",
+            "request": "launch",
+            "mainClass": "leetcode.Solution198",
+            "projectName": "level1_76bad1b"
+        },
+        {
+            "type": "java",
             "name": "Launch Solution946",
             "request": "launch",
             "mainClass": "leetcode.Solution946",
