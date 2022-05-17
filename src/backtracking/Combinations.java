@@ -11,6 +11,7 @@ public class Combinations {
         int n= sc.nextInt();
         combine(k,1,n);
         System.out.println(res);
+        sc.close();
     }
 
     private static void combine(int k,int start,int n){
