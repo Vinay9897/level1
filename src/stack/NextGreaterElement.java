@@ -36,7 +36,6 @@ public class NextGreaterElement {
 
     private static int[] solve(int[] arr) {
         int[] nge = new int[arr.length];
-
         Stack<Integer> st = new Stack<>();
         st.push(arr[arr.length - 1]);
         nge[arr.length - 1] = -1;
@@ -48,10 +47,8 @@ public class NextGreaterElement {
                 nge[i] = -1; // put at ith index in the nge array , -1 if stack is empty
             } else {
                 nge[i] = st.peek(); // else
-
                 st.push(arr[i]);
             }
-
         }
         return nge;
     }

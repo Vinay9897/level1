@@ -8,12 +8,12 @@ public class NextGreaterElement3 {
     public static void main(String[] args) {
 
         int[] arr = new int[] { 5, 2, 8, 9, 6, 7, 1, 4, 0 };
-        int[] nge = solve(arr);
+        int[] nge1 = solve(arr);
         for (int val : arr) {
             System.out.print(val + " ");
         }
         System.out.println();
-        for (int val : nge) {
+        for (int val : nge1) {
             System.out.print(val + " ");
         }
     }
