@@ -29,7 +29,6 @@ public class NextSmallerElementFromLeft {
             System.out.print(val + " ");
         }
     }
-
     private static int[] solve(int[] arr) {
         int[] nse = new int[arr.length];
         Stack<Integer> stack = new Stack<>();
