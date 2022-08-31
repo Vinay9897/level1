@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MultiplytwoLinkedList",
+            "request": "launch",
+            "mainClass": "linkedlist.MultiplytwoLinkedList",
+            "projectName": "level1_1c55a9e9"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainClassOfBST",
+            "request": "launch",
+            "mainClass": "binarytree.MainClassOfBST",
+            "projectName": "level1_1c55a9e9"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

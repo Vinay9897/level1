@@ -9,8 +9,8 @@ public class SLinkedList {
     static int size = 0;
 
     public static void main(String[] args) {
-        SLinkedList sll = new SLinkedList();
-        Scanner sc = new Scanner(System.in);
+        // SLinkedList sll = new SLinkedList();
+        // Scanner sc = new Scanner(System.in);
         // int data = sc.nextInt();
         addFirst(1);// add node when head is null
         addFirst(2);
@@ -345,6 +345,7 @@ class Node {
     int data;
     Node next;
 
+    // constructor
     Node(int data, Node next) {
         this.data = data;
         this.next = next;
