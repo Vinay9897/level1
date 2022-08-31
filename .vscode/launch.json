@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SubtreeOfAnotherTree",
+            "request": "launch",
+            "mainClass": "binarytree.SubtreeOfAnotherTree",
+            "projectName": "level1_1c55a9e9"
+        },
+        {
+            "type": "java",
             "name": "Launch MultiplytwoLinkedList",
             "request": "launch",
             "mainClass": "linkedlist.MultiplytwoLinkedList",
