@@ -14,7 +14,7 @@ public class QuickUnion {
         uf.union(4, 2);
         uf.union(4, 5);
         uf.display();
-        // uf.isConnected(3, 8);
+        System.out.println(uf.connected(3, 8));
         // uf.isConnected(4, 5);
 
     }
@@ -30,6 +30,10 @@ class UnionFind {
         for (int i = 0; i < size; i++) {
             root[i] = i;
         }
+    }
+
+    public boolean connected(int i, int j) {
+        return find(i) == find(j);
     }
 
     public int find(int x) {
@@ -49,12 +53,6 @@ class UnionFind {
             root[rootX] = rootY;
         }
     }
-
-    // public void isConnected(int x, int y) {
-    // int a = find(x);
-    // int b = find(y);
-    // System.out.println(root[x] == root[y]);
-    // }
 
     public void display() {
         for (int i = 0; i < root.length; i++) {
