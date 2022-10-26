@@ -41,6 +41,7 @@ class UnionFind {
     }
 
     public void union(int node1, int node2) {
+        // rootX and rootY store the parent node of (node1 and node2)
         int rootX = find(node1);
         int rootY = find(node2);
 
