@@ -98,7 +98,8 @@ public class MinHeap {
         mHeap.add(7);
         mHeap.add(6);
         System.out.println(mHeap.toString());
-        mHeap.pop();
+        System.out.println(mHeap.pop());
+        mHeap.peek();
 
         System.out.println(mHeap.toString());
 
