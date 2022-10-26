@@ -1,7 +1,5 @@
 package linkedlist;
 
-import java.util.*;
-
 public class SLinkedList {
 
     static Node head = null;

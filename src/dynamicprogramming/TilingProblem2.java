@@ -13,7 +13,7 @@ class TilingProblem2 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter the width of tile : ");
         int n = sc.nextInt();
-
+        sc.close();
         int[] dp = new int[n + 1];
 
         dp[1] = 1;

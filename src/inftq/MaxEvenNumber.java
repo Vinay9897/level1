@@ -2,9 +2,6 @@ package inftq;
 
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.HashSet;
-import java.util.Hashtable;
-import java.util.Set;
 
 public class MaxEvenNumber {
     public static void main(String[] args) {

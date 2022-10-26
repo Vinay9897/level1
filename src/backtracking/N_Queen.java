@@ -1,6 +1,6 @@
 package backtracking;
 
-import java.util.*;
+// import java.util.*;
 
 import java.util.Scanner;
 
@@ -16,6 +16,7 @@ public class N_Queen {
         boolean[] normalDg = new boolean[2 * n - 1];
         boolean[] revDg = new boolean[2 * n - 1];
         String ans = "";
+        sc.close();
         solve(board, row, cols, normalDg, revDg, ans);
 
     }
@@ -29,8 +30,8 @@ public class N_Queen {
         }
 
         for (int col = 0; col < board[0].length; col++) {
-            if (cols[col] == false && normalDg[col + row] == false && 
-            revDg[row - col + board.length - 1] == false) {
+            if (cols[col] == false && normalDg[col + row] == false &&
+                    revDg[row - col + board.length - 1] == false) {
                 board[row][col] = true;
                 cols[col] = true;
                 normalDg[row + col] = true;

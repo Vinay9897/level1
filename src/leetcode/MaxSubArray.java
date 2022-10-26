@@ -6,7 +6,7 @@ public class MaxSubArray {
         System.out.println("This is Original Array" + arr.toString());
         int p1 = 0;
         int p2 = 0;
-        int max = Integer.MIN_VALUE;
+        // int max = Integer.MIN_VALUE;
         for (int i = 0; i < arr.length - 1; i++) {
             p1 = i;
             for (int j = i + 1; j < arr.length; j++) {

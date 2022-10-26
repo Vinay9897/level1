@@ -8,7 +8,7 @@ public class MultiplytwoLinkedList {
 
     public static void main(String[] args) {
         // create object
-        MultiplytwoLinkedList m2ll = new MultiplytwoLinkedList();
+        // MultiplytwoLinkedList m2ll = new MultiplytwoLinkedList();
         //
         Node head1 = new Node(1);
         head1.next = new Node(2);
