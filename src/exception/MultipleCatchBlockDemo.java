@@ -15,7 +15,10 @@ public class MultipleCatchBlockDemo {
         } catch (Exception e) {
             System.out.println("Number format exception");
         }
-        System.out.println("Handled");
+        // No matter exception handled or not finally block always executed
+        finally {
+            System.out.println("handled");
+        }
     }
 
 }
