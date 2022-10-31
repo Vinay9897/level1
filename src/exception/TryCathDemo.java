@@ -16,5 +16,12 @@ public class TryCathDemo {
             System.out.println("format is not correct");
         }
 
+        try {
+            int[] arr = new int[5];
+            arr[7] = 5;
+        } catch (IndexOutOfBoundsException e) {
+            System.out.println("Array Index out of bound");
+        }
+
     }
 }
