@@ -1,6 +1,8 @@
 package exception;
 
 public class TryCathDemo {
+
+    // catch block execute only when an exception occurs otherwise not
     public static void main(String[] args) {
         int val = 10, val2 = 0;
         try {
@@ -22,6 +24,5 @@ public class TryCathDemo {
         } catch (IndexOutOfBoundsException e) {
             System.out.println("Array Index out of bound");
         }
-
     }
 }
